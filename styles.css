@@ -98,7 +98,12 @@ p { max-width: 62ch; }
   gap: 8px;
 }
 
-.brand svg { width: 26px; height: 26px; }
+.brand img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
 
 .site-nav {
   display: flex;
